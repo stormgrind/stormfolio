@@ -1,5 +1,5 @@
-name: gatein
-summary: Appliance with GateIn portal platform
+name: gatein-3.0.0.Beta05
+summary: Appliance with GateIn 3.0.0.Beta05 portal platform
 os:
   name: fedora
   version: 12
@@ -13,4 +13,4 @@ appliances:
   - jeos
 packages:
   includes:
-    - gatein
+    - gatein-3.0.0.Beta05
