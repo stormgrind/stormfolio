@@ -1,5 +1,14 @@
 name: gatein
 summary: Appliance with GateIn portal platform
+os:
+  name: fedora
+  version: 12
+  password: gatein
+hardware:
+  memory: 512
+  partitions:
+    - root: "/"
+      size: 2
 appliances:
   - jeos
 packages:
