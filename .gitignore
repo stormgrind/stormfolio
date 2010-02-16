@@ -1,0 +1,11 @@
+tmp
+*.swp
+rpms-cache
+sources-cache
+extra-rpms
+build
+*.pyc
+.project
+.loadpath
+.idea
+*.log*

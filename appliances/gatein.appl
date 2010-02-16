@@ -1,0 +1,7 @@
+name: gatein
+summary: Appliance with GateIn portal platform
+appliances:
+  - jeos
+packages:
+  includes:
+    - gatein
