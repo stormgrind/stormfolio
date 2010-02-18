@@ -1,4 +1,12 @@
 name: stormfolio-base
+os:
+  name: fedora
+  version: 12
+hardware:
+  memory: 256
+  partitions:
+    - root: "/"
+      size: 2
 appliances:
    - jeos
 packages:

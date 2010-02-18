@@ -1,14 +1,9 @@
 name: gatein-3.0.0.CR1
 summary: Appliance with GateIn 3.0.0.Beta05 portal platform
 os:
-  name: fedora
-  version: 12
   password: gatein
 hardware:
   memory: 512
-  partitions:
-    - root: "/"
-      size: 2
 appliances:
   - stormfolio-base
 packages:
