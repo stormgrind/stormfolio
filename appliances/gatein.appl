@@ -1,4 +1,4 @@
-name: gatein-3.0.0.Beta05
+name: gatein-3.0.0.CR1
 summary: Appliance with GateIn 3.0.0.Beta05 portal platform
 os:
   name: fedora
@@ -10,7 +10,7 @@ hardware:
     - root: "/"
       size: 2
 appliances:
-  - jeos
+  - stormfolio-base
 packages:
   includes:
-    - gatein-3.0.0.Beta05
+    - gatein-3.0.0.CR1

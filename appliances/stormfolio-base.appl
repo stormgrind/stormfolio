@@ -1,0 +1,8 @@
+name: stormfolio-base
+appliances:
+   - jeos
+packages:
+  includes:
+    - unzip
+    - ruby
+    - rsync
