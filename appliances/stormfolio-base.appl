@@ -16,8 +16,8 @@ packages:
     - rsync
     - openssh-clients
 repos:
-  - name: "oddthesis-#ARCH#"
-    baseurl: "http://repo.oddthesis.org/packages/#OS_NAME#/#OS_VERSION#/RPMS/#ARCH#"
-  - name: "oddthesis-noarch"
-    baseurl: "http://repo.oddthesis.org/packages/#OS_NAME#/#OS_VERSION#/RPMS/noarch"
+  - name: "stormfolio-#ARCH#"
+    baseurl: "http://repo.boxgrinder.org/stormfolio/packages/#OS_NAME#/#OS_VERSION#/RPMS/#ARCH#"
+  - name: "stormfolio-noarch"
+    baseurl: "http://repo.boxgrinder.org/stormfolio/packages/#OS_NAME#/#OS_VERSION#/RPMS/noarch"
 
