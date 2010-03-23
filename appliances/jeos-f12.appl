@@ -1,0 +1,25 @@
+name: jeos-f12
+summary: Just Enough Operating System based on Fedora 12
+os:
+  name: fedora
+  version: 12
+packages:
+  includes:
+    - bash
+    - kernel
+    - grub
+    - e2fsprogs
+    - passwd
+    - policycoreutils
+    - chkconfig
+    - rootfiles
+    - yum
+    - vim-minimal
+    - acpid
+    - dhclient
+    - iputils
+    - generic-logos
+    - openssh-server
+    - openssh-clients
+    - mkinitrd
+

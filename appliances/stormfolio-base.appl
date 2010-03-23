@@ -1,14 +1,11 @@
 name: stormfolio-base
-os:
-  name: fedora
-  version: 12
 hardware:
   memory: 256
   partitions:
     - root: "/"
       size: 2
 appliances:
-   - jeos
+   - jeos-f12
 packages:
   includes:
     - unzip
@@ -20,4 +17,3 @@ repos:
     baseurl: "http://repo.boxgrinder.org/stormfolio/packages/#OS_NAME#/#OS_VERSION#/RPMS/#ARCH#"
   - name: "stormfolio-noarch"
     baseurl: "http://repo.boxgrinder.org/stormfolio/packages/#OS_NAME#/#OS_VERSION#/RPMS/noarch"
-
