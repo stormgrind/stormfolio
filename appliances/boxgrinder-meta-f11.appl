@@ -1,12 +1,15 @@
-name: boxgrinder-meta-f12
+name: boxgrinder-meta
 summary: Environment for building new appliances using BoxGrinder
+os:
+  name: fedora
+  version: 11
 hardware:
   memory: 1024
   partitions:
     - root: "/"
       size: 10
 appliances:
-  - jeos-f12
+  - jeos
 packages:
   includes:
     - rubygem-boxgrinder-build

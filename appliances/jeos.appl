@@ -1,8 +1,5 @@
-name: jeos-f12
-summary: Just Enough Operating System based on Fedora 12
-os:
-  name: fedora
-  version: 12
+name: jeos
+summary: Just Enough Operating System
 packages:
   includes:
     - bash
