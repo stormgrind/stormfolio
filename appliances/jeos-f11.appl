@@ -1,0 +1,8 @@
+name: jeos-f11
+summary: Just Enough Operating System based on Fedora 11
+os:
+  name: fedora
+  version: 11
+appliances:
+   - jeos
+
