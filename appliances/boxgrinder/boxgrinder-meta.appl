@@ -22,3 +22,4 @@ packages:
     - guestfish
     - yum-utils
     - e2fsprogs
+    - boxgrinder-environment
