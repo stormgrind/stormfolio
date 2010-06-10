@@ -1,7 +1,7 @@
 name: boxgrinder-meta
 summary: Environment for building new appliances using BoxGrinder
 version: 1
-release: 1
+release: 2
 hardware:
   memory: 1024
   partitions:
