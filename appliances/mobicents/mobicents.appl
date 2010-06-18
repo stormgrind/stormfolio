@@ -7,7 +7,3 @@ appliances:
 packages:
   includes:
     - mobicents-all
-repos:
-  - name: "tmp"
-    baseurl: "file:///home/oddthesis/git/stormfolio/repo"
-    ephemeral: true
