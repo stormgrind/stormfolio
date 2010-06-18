@@ -14,7 +14,6 @@ packages:
     - unzip
     - ruby
     - rsync
-    - openssh-clients
 repos:
   - name: "stormfolio-#ARCH#"
     baseurl: "http://repo.boxgrinder.org/stormfolio/packages/#OS_NAME#/#OS_VERSION#/RPMS/#ARCH#"

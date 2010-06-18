@@ -1,0 +1,13 @@
+name: mobicents
+summary: Mobicents appliance with SIP Servlets and Mobicents Media Server
+hardware:
+  memory: 1024
+appliances:
+  - mobicents-base
+packages:
+  includes:
+    - mobicents-all
+repos:
+  - name: "tmp"
+    baseurl: "file:///home/oddthesis/git/stormfolio/repo"
+    ephemeral: true

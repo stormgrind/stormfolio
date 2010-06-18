@@ -1,0 +1,38 @@
+name: mobicents-base
+summary: Appliance template for Mobicents appliances
+os:
+  name: fedora
+  version: 11
+  password: mobicents
+hardware:
+  memory: 512
+  partitions:
+    "/":
+      size: 2
+packages:
+  includes:
+    - bash
+    - kernel
+    - grub
+    - e2fsprogs
+    - passwd
+    - policycoreutils
+    - chkconfig
+    - rootfiles
+    - yum
+    - vim-minimal
+    - acpid
+    - dhclient
+    - iputils
+    - generic-logos
+    - openssh-server
+    - openssh-clients
+    - mkinitrd
+    - which
+    - make
+    - wget
+repos:
+  - name: "stormfolio-#ARCH#"
+    baseurl: "http://repo.boxgrinder.org/stormfolio/packages/#OS_NAME#/#OS_VERSION#/RPMS/#ARCH#"
+  - name: "stormfolio-noarch"
+    baseurl: "http://repo.boxgrinder.org/stormfolio/packages/#OS_NAME#/#OS_VERSION#/RPMS/noarch"
