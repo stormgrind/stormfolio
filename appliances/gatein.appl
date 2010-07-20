@@ -1,5 +1,5 @@
-name: gatein-3.0.0.FINAL
-summary: Appliance with GateIn 3.0.0.FINAL portal platform
+name: gatein-3.1.0.FINAL
+summary: Appliance with GateIn 3.1.0.FINAL portal platform
 os:
   password: gatein
 hardware:
@@ -8,4 +8,4 @@ appliances:
   - stormfolio-base
 packages:
   includes:
-    - gatein-3.0.0.FINAL
+    - gatein-3.1.0.FINAL
