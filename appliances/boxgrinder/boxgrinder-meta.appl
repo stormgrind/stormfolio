@@ -24,6 +24,4 @@ packages:
     - e2fsprogs
     - boxgrinder-environment
     - qemu-stable
-post:
-  base:
-    - "rpm -Uvh http://s3.amazonaws.com/ec2-downloads/ec2-ami-tools.noarch.rpm"
+    - ec2-ami-tools

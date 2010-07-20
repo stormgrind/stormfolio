@@ -1,14 +1,11 @@
 name: stormfolio-base
-os:
-  name: fedora
-  version: 11
 hardware:
   memory: 256
   partitions:
-    - root: "/"
+    "/":
       size: 2
 appliances:
-   - jeos
+   - jeos-f13
 packages:
   includes:
     - unzip
