@@ -23,5 +23,4 @@ packages:
     - yum-utils
     - e2fsprogs
     - boxgrinder-environment
-    - qemu-stable
     - ec2-ami-tools
