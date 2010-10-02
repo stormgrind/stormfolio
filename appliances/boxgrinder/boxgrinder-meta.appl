@@ -6,7 +6,7 @@ hardware:
   memory: 1024
   partitions:
     "/":
-      size: 2
+      size: 10
 appliances:
   - boxgrinder-base
 packages:
