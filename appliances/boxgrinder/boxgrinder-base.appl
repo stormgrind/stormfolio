@@ -33,7 +33,7 @@ packages:
     - gcc-c++
     - wget
 repos:
-  - name: "boxgrinder-#ARCH#"
-    baseurl: "http://repo.boxgrinder.org/boxgrinder/packages/#OS_NAME#/#OS_VERSION#/RPMS/#ARCH#"
+  - name: "boxgrinder-#BASE_ARCH#"
+    baseurl: "http://repo.boxgrinder.org/boxgrinder/packages/#OS_NAME#/#OS_VERSION#/RPMS/#BASE_ARCH#"
   - name: "boxgrinder-noarch"
     baseurl: "http://repo.boxgrinder.org/boxgrinder/packages/#OS_NAME#/#OS_VERSION#/RPMS/noarch"
